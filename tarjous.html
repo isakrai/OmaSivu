@@ -9,66 +9,30 @@
 
     <body>
         <nav>
-            <ul>
-                <li><a href="index.html"> Etusivu </a></li>
-                <li><a href="tietoa.html"> Tietoa yrityksestä </a></li>
-                <li><a href="yhteystiedot.html"> Yhteystiedot </a></li>
-                <li><a href="ref.html"> Pyydä Tarjous </a></li>
-            </ul>
+            <div class="topnav">
+                <a href="index.html"> Etusivu </a>
+                <a href="tietoa.html"> Tietoa yrityksestä </a>
+                <a href="yhteystiedot.html"> Yhteystiedot </a>
+                <a class="active-tarjous tarjous" href="tarjous.html"> Pyydä tarjous </a>
+            </div>
         </nav>
         <header>
-            <h1>Referenssit</h1><hr class="line">
+            <h1>Pyydä tarjous</h1><hr class="line">
         </header>
         <main>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <img class="imgright" src="https://cdn.pixabay.com/photo/2017/01/30/15/35/autumn-2021154_960_720.jpg" alt="järvi" height="172">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi nunc, suscipit non urna at, 
-                            congue pellentesque nisl. Quisque luctus dui at purus pharetra egestas. Vivamus vulputate 
-                            massa vitae massa elementum maximus. Phasellus vitae purus feugiat, lobortis tellus quis, 
-                            pulvinar enim. Mauris suscipit, turpis non fringilla dapibus, odio risus molestie lectus, 
-                            et faucibus metus erat at magna. Donec suscipit efficitur rhoncus. Nam auctor, erat a 
-                            consequat tempor dui dolor.
-                        </p>
-                    
-                       
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <form>
+                            <label for="fname">Nimi:</label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                            <label for="email">Sähköpostiosoite:</label><br>
+                            <input type="text" id="email" name="email"><br><br>
+                            <input type="submit" value="Submit">
+                          </form>
                     </div>
-                    <div class="col-sm-12">
-                        <img class="imgleft" src="https://cdn.pixabay.com/photo/2019/11/30/19/52/trees-4664060_960_720.jpg" alt="tie" height="172">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi nunc, suscipit non urna at, 
-                            congue pellentesque nisl. Quisque luctus dui at purus pharetra egestas. Vivamus vulputate 
-                            massa vitae massa elementum maximus. Phasellus vitae purus feugiat, lobortis tellus quis, 
-                            pulvinar enim. Mauris suscipit, turpis non fringilla dapibus, odio risus molestie lectus, 
-                            et faucibus metus erat at magna. Donec suscipit efficitur rhoncus. Nam auctor, erat a 
-                            consequat tempor dui dolor.
-                        </p>
-                    </div>
-                    <div class="col-sm-12">
-                        <img class="imgright" src="https://cdn.pixabay.com/photo/2019/11/20/07/08/lake-4639368_960_720.jpg " alt="laituri" height="172">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi nunc, suscipit non urna at, 
-                            congue pellentesque nisl. Quisque luctus dui at purus pharetra egestas. Vivamus vulputate 
-                            massa vitae massa elementum maximus. Phasellus vitae purus feugiat, lobortis tellus quis, 
-                            pulvinar enim. Mauris suscipit, turpis non fringilla dapibus, odio risus molestie lectus, 
-                            et faucibus metus erat at magna. Donec suscipit efficitur rhoncus. Nam auctor, erat a 
-                            consequat tempor dui dolor.
-                        </p>
-                    </div>
-                        <div class="col-sm-12">
-                        <img class="imgleft" src="https://cdn.pixabay.com/photo/2020/10/23/09/02/mountain-5678172_960_720.jpg" alt="vuori" height="172">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi nunc, suscipit non urna at, 
-                            congue pellentesque nisl. Quisque luctus dui at purus pharetra egestas. Vivamus vulputate 
-                            massa vitae massa elementum maximus. Phasellus vitae purus feugiat, lobortis tellus quis, 
-                            pulvinar enim. Mauris suscipit, turpis non fringilla dapibus, odio risus molestie lectus, 
-                            et faucibus metus erat at magna. Donec suscipit efficitur rhoncus. Nam auctor, erat a 
-                            consequat tempor dui dolor.
-                        </p>
-                    </div>
-
+                    <div class="col-sm-3"></div>
                 </div>
             </div>
         </main>
