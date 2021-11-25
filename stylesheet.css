@@ -1,16 +1,32 @@
 body {
-    background-color: burlywood;
+    background-color: lightgrey;
     color: chocolate;
 }
-
+.col-sm-8 {
+    background-color: rgb(80, 79, 79);
+}
 h1 {
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
 }
-h6 {
+xheader {
+    height: 200px;
+    background-image: url('ittuki.png') ;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    ;
+
+}
+.alaotsikko {
     text-align: center;
     font-size: 12px;
+    color: rgb(216, 140, 85);
+}
+.hviisi {
+    text-align: center;
+    font-size: 22px;
     color: rgb(216, 140, 85);
 }
 hr.line {
@@ -18,9 +34,11 @@ hr.line {
 }
 
 .topnav {
+
     position: relative;
-    background-color: rgb(214, 154, 75);
+    background-color: burlywood;
     overflow: hidden;
+    padding-top: 20px;
 }
 .topnav a {
     float: left;
@@ -29,60 +47,30 @@ hr.line {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    size: 20px;
    
 }
 .topnav a:hover {
-    background-color: burlywood;
+
     color: rgb(90, 48, 17);
 }
 .topnav a.active {
-    background-color: burlywood;
-    color: white;
+
+    color: black;
 }
 .topnav a.active-tarjous {
-    background-color: burlywood;
+
     color: rgb(90, 48, 17);
 }
 
-
-/*ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(214, 154, 75);
-}
-li {
-    float: left;
-}
-li a {
-    display: block;
+.lomake {
+    background-color: chocolate;
     color: white;
-    text-align: center;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-decoration: none;
-}
-li a:hover {
-    background-color: burlywood;
-    color: black;
-}
-li a:active {
-    background-color: burlywood;
-    color: white;
-}
-*/
-xrow {
-    background-color: rgb(150, 105, 64);
-    color: white;
-    padding-top: 10px;
 }
 a.tarjous {
     font-weight: bold;
     color: rgb(90, 48, 17);
 }
-
 @media screen and (max-width: 600px) {
     .topnav a, .topnav-right {
       float: none;
