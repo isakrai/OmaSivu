@@ -1,1 +1,50 @@
+body {
+    background-color: burlywood;
+    color: chocolate;
+}
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+h6 {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(216, 140, 85);
+}
+hr.line {
+    border-top: 2px solid black;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(214, 154, 75);
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: burlywood;
+    color: black;
+}
+li a:active {
+    background-color: burlywood;
+    color: white;
+}
+.row {
+    background-color: rgb(150, 105, 64);
+    color: white;
+    padding-top: 10px;
+}
