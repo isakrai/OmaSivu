@@ -2,33 +2,61 @@ body {
     background-color: lightgrey;
     color: chocolate;
 }
+
 .col-sm-8 {
     background-color: rgb(80, 79, 79);
 }
+
 h1 {
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
 }
-xheader {
-    height: 200px;
-    background-image: url('ittuki.png') ;
-    background-repeat: no-repeat;
-    background-size: 40%;
-    background-position: center;
-    ;
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+.header-kaksi {
+    padding: 10px; 
+    background: black;
+    color: white;
+    font-size: 10px;
+    position: relative;
+    width: 50%;
+    height: 100px;
+    left: 25%;
 
 }
+xheader {
+    height: 900px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo_U3zVn83wkY0wx7q9HC0uuEvJXPzfmfFBQ&usqp=CAU) ;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
+
+footer {
+    background-color: aqua;
+
+}
+
 .alaotsikko {
     text-align: center;
     font-size: 12px;
     color: rgb(216, 140, 85);
 }
+
 .hviisi {
     text-align: center;
     font-size: 22px;
     color: rgb(216, 140, 85);
 }
+
 hr.line {
     border-top: 2px solid black;
 }
@@ -40,6 +68,7 @@ hr.line {
     overflow: hidden;
     padding-top: 20px;
 }
+
 .topnav a {
     float: left;
     color: white;
@@ -47,19 +76,18 @@ hr.line {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    size: 20px;
-   
+    size: 20px; 
 }
-.topnav a:hover {
 
+.topnav a:hover {
     color: rgb(90, 48, 17);
 }
-.topnav a.active {
 
+.topnav a.active {
     color: black;
 }
-.topnav a.active-tarjous {
 
+.topnav a.active-tarjous {
     color: rgb(90, 48, 17);
 }
 
@@ -67,10 +95,12 @@ hr.line {
     background-color: chocolate;
     color: white;
 }
-a.tarjous {
+
+a.navtarjous {
     font-weight: bold;
     color: rgb(90, 48, 17);
 }
+
 @media screen and (max-width: 600px) {
     .topnav a, .topnav-right {
       float: none;
