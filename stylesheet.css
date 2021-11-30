@@ -21,18 +21,6 @@ body {
 
 }
 
-.header {
-    padding: 60px;
-    text-align: center;
-    xbackground: #d3f3ed;
-    background-image: url(https://cdn.pixabay.com/photo/2021/10/09/07/06/natural-6693234_1280.jpg);
-    background-repeat: no-repeat;
-    color: rgb(90, 56, 56);
-    font-size: 30px;
-    width: 60%;
-    left: 15%;
-    position: relative;
-}
 
 .tausta {
     background-image: url(kuva.jpeg);
@@ -42,10 +30,6 @@ body {
     height: 550px;
 }
 
-header {
-    xbackground-color: rgb(204, 204, 204);
-
-}
 footer {
     background-color: burlywood;
     position: relative;
@@ -93,7 +77,6 @@ hr.line-kaksi {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    size: 20px; 
 }
 
 .topnav a:hover {
