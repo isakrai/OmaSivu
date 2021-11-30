@@ -1,12 +1,15 @@
 body {
     background-color: white;
     color: rgb(83, 83, 83);
+
 }
 
 .taustat-etusivu {
-    background-color: rgb(204, 204, 204);
+    xbackground-image: url(https://cdn.pixabay.com/photo/2021/10/09/07/06/natural-6693234_1280.jpg);
+    background-color: rgb(235, 232, 232);
     padding-top: 20px;
     margin-bottom: 30px;
+    color: black;
 }
 
 .otsikko {
