@@ -5,11 +5,8 @@ body {
 }
 
 .taustat-etusivu {
-    xbackground-image: url(https://cdn.pixabay.com/photo/2021/10/09/07/06/natural-6693234_1280.jpg);
     background-color: rgb(235, 232, 232);
-    padding-top: 20px;
-    margin-bottom: 30px;
-    color: black;
+
 }
 
 .otsikko {
@@ -25,11 +22,24 @@ body {
 }
 
 .header {
-    padding: 30px;
+    padding: 60px;
     text-align: center;
-    background: #d3f3ed;
+    xbackground: #d3f3ed;
+    background-image: url(https://cdn.pixabay.com/photo/2021/10/09/07/06/natural-6693234_1280.jpg);
+    background-repeat: no-repeat;
     color: rgb(90, 56, 56);
     font-size: 30px;
+    width: 60%;
+    left: 15%;
+    position: relative;
+}
+
+.tausta {
+    background-image: url(https://www.jamk.fi/globalassets/koulutus--education/ict-ala/sisaltokuva_990x320_ict-ala.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
 }
 
 header {
