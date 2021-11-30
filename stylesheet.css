@@ -1,53 +1,52 @@
 body {
-    background-color: lightgrey;
-    color: chocolate;
+    background-color: white;
+    color: rgb(83, 83, 83);
 }
 
-.col-sm-8 {
-    background-color: rgb(80, 79, 79);
+.taustat-etusivu {
+    background-color: rgb(204, 204, 204);
+    padding-top: 20px;
+    margin-bottom: 30px;
 }
 
-h1 {
+.otsikko {
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
+    color: chocolate;
+}
+
+.yhteystiedot-alaotsikko {
+    color: chocolate;
+
 }
 
 .header {
-    padding: 50px;
+    padding: 30px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    background: #d3f3ed;
+    color: rgb(90, 56, 56);
     font-size: 30px;
 }
 
-.header-kaksi {
-    padding: 10px; 
-    background: black;
-    color: white;
-    font-size: 10px;
-    position: relative;
-    width: 50%;
-    height: 100px;
-    left: 25%;
+header {
+    xbackground-color: rgb(204, 204, 204);
 
 }
-xheader {
-    height: 900px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo_U3zVn83wkY0wx7q9HC0uuEvJXPzfmfFBQ&usqp=CAU) ;
-    background-repeat: no-repeat;
-    background-size: 90%;
-    background-position: center;
-}
-
 footer {
-    background-color: aqua;
+    background-color: burlywood;
+    position: relative;
+    bottom: 0px;
+    height: 25px;
+    text-align: center;
+    color: black;
+    font-size: 13px;
 
 }
 
 .alaotsikko {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(216, 140, 85);
 }
 
@@ -61,12 +60,17 @@ hr.line {
     border-top: 2px solid black;
 }
 
+hr.line-kaksi {
+    border-top: 1px solid black;
+}
+
 .topnav {
 
     position: relative;
+    width: 100%                                     ;
     background-color: burlywood;
     overflow: hidden;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .topnav a {
@@ -92,8 +96,8 @@ hr.line {
 }
 
 .lomake {
-    background-color: chocolate;
-    color: white;
+    background-color: burlywood;
+    color: rgb(83, 83, 83);
 }
 
 a.navtarjous {
